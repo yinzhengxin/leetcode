@@ -21,7 +21,7 @@ public:
         while(++i<len&&str[i]>='0'&&str[i]<='9'){
             temp=(str[i]-'0')*sign;
             if(res>INT32_MAX/10||(res==INT32_MAX/10&&temp>7)) return INT32_MAX;
-            if(res<INT32_MAX/10||(res==INT32_MIN/10&&temp<-8)) return INT32_MIN;
+            if(res<INT32_MIN/10||(res==INT32_MIN/10&&temp<-8)) return INT32_MIN;
             res=res*10+temp;
         }
         return res;
