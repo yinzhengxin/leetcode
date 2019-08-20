@@ -4,6 +4,7 @@
 
 熟悉一下git的使用
 
+'''
 git init 
 
 git add <filename>
@@ -17,3 +18,5 @@ git remote add origin master git@github.com:zxczxc@xx.com
 git pull --rebase origin master   //本地合并一下远程仓库
 
 git push (-u) origin master
+
+'''
