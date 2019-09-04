@@ -28,3 +28,9 @@ public:
     
     }
 };
+int main(){
+    Solution sol;
+    char a[10]="";
+    char b[10]="a*b*";
+    cout<<sol.match(a,b);
+}
