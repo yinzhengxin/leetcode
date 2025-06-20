@@ -17,8 +17,10 @@ int p5660()
         }
     }
     cout << num;
+    return 0;
 }
 
-int main(){
-return p5660();
+int main()
+{
+    return p5660();
 }
