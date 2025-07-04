@@ -3,7 +3,8 @@
         {
             "type": "cppbuild",
             "label": "C/C++: g++.exe 生成活动文件", //launch.json 中的 preLaunchTask 必须与 tasks.json 中的 label 完全一致（大小写敏感）。
-            "command": "F:\\msys64\\ucrt64\\bin\\g++.exe",
+            "command": "D:\\mysys2\\ucrt64\\bin\\g++.exe",
+            //"command": "F:\\msys64\\ucrt64\\bin\\g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",

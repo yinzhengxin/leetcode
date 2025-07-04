@@ -10,7 +10,8 @@
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "F:\\msys64\\ucrt64\\bin\\gcc.exe",
+            "compilerPath": "D:\\mysys2\\ucrt64\\bin\\gcc.exe",
+            //"compilerPath": "F:\\msys64\\ucrt64\\bin\\gcc.exe",
             "cStandard": "c17",
             "cppStandard": "c++20", // 信奥比赛默认使用 c++14。若比赛环境使用GCC 9.0以上版本，C++17的语法可能被支持。
             "intelliSenseMode": "windows-gcc-x64"
